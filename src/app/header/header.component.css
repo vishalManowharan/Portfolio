@@ -1,0 +1,25 @@
+.mat-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    height: 11vh;
+    background-color: white;
+}
+.navigators a {
+    font-size: 23px;
+    margin: 10px;
+}
+
+.name {
+    font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 29px;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
+}
