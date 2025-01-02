@@ -6,7 +6,7 @@ html {
     scroll-behavior: smooth;
   }
   
-p {
+.intro-comp-p {
     color: rgb(85, 85, 85);
 }
 

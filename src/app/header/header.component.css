@@ -4,7 +4,7 @@
     align-items: center;
     font-size: 25px;
     height: 11vh;
-    background-color: white;
+    /* background-color: white; */
 }
 .navigators a {
     font-size: 23px;

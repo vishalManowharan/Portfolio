@@ -1,1 +1,9 @@
-<p>experience works!</p>
+<div class="experience-container">
+  <p>Explore My</p>
+  <h1>Experience</h1>
+  <div class="techstack-container">
+    @for(item of techStacks; track item.id) {
+          <app-tech-stack [title]="item.title" [stackList]="item.techStackList" ></app-tech-stack>
+    }
+  </div>
+</div>

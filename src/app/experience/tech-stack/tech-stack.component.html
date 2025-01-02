@@ -1,0 +1,12 @@
+<div class="stack-container">
+  <h2>{{title()}}</h2>
+  <div class="stacks-list-container">
+    @for(item of stackList(); track item.id) {
+        <div class="stack">
+        <img src="assets/checkmark.png" alt="tickMark">  
+      <h4>{{item.name}}</h4><br>
+      <span>{{item.level}}</span>
+    </div>
+    }
+  </div>
+</div>
