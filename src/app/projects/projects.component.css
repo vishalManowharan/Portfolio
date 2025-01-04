@@ -12,7 +12,53 @@
     gap: 2rem;
 }
 
-img {
-    position: absolute;
-    width: 100%;
+.projects-container {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
 }
+
+#project {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    border: 1px solid white;
+    border-radius: 10%;
+    padding: 1.5rem 2rem;
+    box-shadow:
+    0 0 0px #ffff00,   /* yellow */
+    0 0 2px #00ff00,   /* green */
+    0 0 8px #00ffff,   /* cyan */
+    0 0 6px #0000ff,   /* blue */
+    0 0 24px #8b00ff;   /* violet */
+}
+
+#project img {
+    width: 250px;
+    padding:10px;
+    border-radius: 30px;
+}
+
+#project div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+  }
+  
+  .btn-color-1,
+  .btn-color-2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+  }

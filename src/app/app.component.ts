@@ -5,6 +5,7 @@ import { IntroComponent } from "./intro/intro.component";
 import { AboutComponent } from "./about/about.component";
 import { ExperienceComponent } from "./experience/experience.component";
 import { ProjectsComponent } from "./projects/projects.component";
+import { ContactComponent } from "./contact/contact.component";
 
 @Component({
   selector: "app-root",
@@ -15,7 +16,8 @@ import { ProjectsComponent } from "./projects/projects.component";
     IntroComponent,
     AboutComponent,
     ExperienceComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ContactComponent
 ],
   templateUrl: "./app.component.html",
   styleUrl: "./app.component.css",
