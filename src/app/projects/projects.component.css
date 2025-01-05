@@ -22,6 +22,7 @@
 #project {
     width: fit-content;
     display: flex;
+    background-color: rgb(117, 167, 247);
     flex-direction: column;
     justify-content: center;
     align-items: center;

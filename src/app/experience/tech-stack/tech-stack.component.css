@@ -51,3 +51,13 @@
 .stack span {
     margin-left: 10px;
 }
+
+@media (max-width: 768px) {
+    .stack-container{
+        width: 100vw;
+    }
+    .stacks-list-container {
+        /* flex-direction: column; */
+        width: 100%;
+    }
+}

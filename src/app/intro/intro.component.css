@@ -113,3 +113,13 @@ span {
     width: 100%;
     z-index: -10;
 }
+
+@media (max-width: 768px) {
+   #profile {
+    width: 50%;
+   }
+   .intro-container {
+    display: flex;
+    flex-direction: column;
+   }
+}

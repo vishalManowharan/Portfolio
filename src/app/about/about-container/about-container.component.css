@@ -30,3 +30,9 @@ h3, span{
     width: 100%;
     z-index: -2;
 }
+
+@media (max-width: 768px) {
+    .about-container {
+        width: 27vw;
+    }
+}

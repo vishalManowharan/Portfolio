@@ -12,7 +12,7 @@
 }
 
 .name {
-    font-family: "Sixtyfour Convergence", sans-serif;
+  font-family: "Sixtyfour Convergence", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-size: 29px;
@@ -23,3 +23,29 @@
     "XELA" 0,
     "YELA" 0;
 }
+
+.hambuger {
+   display: none;
+}
+
+@media (max-width: 768px) {
+    /* Styles for devices with a width of 768px or less */
+    /* .mobile-friendly {
+      font-size: 14px;
+      padding: 10px;
+    } */
+     .navigators {
+        display: none;
+     }
+     .hambuger {
+        display: inline-block;
+        width: 40px;
+     }
+     .name {
+        font-size: 20px;
+     }
+     .mat-toolbar {
+        width: 100vw;
+        padding: 0 15%;
+     }
+  }
