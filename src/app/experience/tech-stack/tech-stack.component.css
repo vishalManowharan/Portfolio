@@ -4,7 +4,8 @@
     flex-direction: column;
     border: 1px solid black;
     width: 35vw;
-    height: 46vh;
+    min-height: 45vh;
+    max-height: fit-content;
     padding: 20px 5rem;
     border-radius: 31px;
     box-sizing: border-box;
