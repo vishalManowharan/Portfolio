@@ -8,6 +8,7 @@
     padding: 20px 5rem;
     border-radius: 31px;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 .stacks-list-container {
@@ -53,11 +54,27 @@
 }
 
 @media (max-width: 768px) {
-    .stack-container{
-        width: 100vw;
+    .stack-container {
+        width: 80vw;
+        height: max-content;
+    }
+    .stack {
+        width: 20vw;
+    }
+    .stack h4{
+        margin-left: 5px;
+    }
+    .stack img{
+        height: 1.5rem;
+    }
+    .stack span {
+        margin-left: 5px;
     }
     .stacks-list-container {
-        /* flex-direction: column; */
+        position: relative;
+        right: 13vw;
         width: 100%;
+        align-items: left;
     }
+
 }

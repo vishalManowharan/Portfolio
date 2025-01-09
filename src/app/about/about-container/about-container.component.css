@@ -25,11 +25,11 @@ h3, span{
     margin-bottom: 10px;
 }
 
-#background {
+/* #background {
     position: absolute;
     width: 100%;
     z-index: -2;
-}
+} */
 
 @media (max-width: 768px) {
     .about-container {

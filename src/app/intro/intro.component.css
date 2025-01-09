@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 89vh;
+    height: calc(100vh - 11vh);
     gap: 13vw;
     background-image: url(/src/assets/banner.png);
 }
@@ -20,7 +20,7 @@
     width: 100px;
 }
 .intro-container img{
-    width: 400px;
+    width: 30vw;
     border-radius: 50%;
 }
 .visible {
@@ -108,11 +108,11 @@ span {
     font-style: normal;
   }
 
-#background {
+/* #background {
     position: absolute;
     width: 100%;
     z-index: -10;
-}
+} */
 
 @media (max-width: 768px) {
    #profile {
@@ -122,4 +122,7 @@ span {
     display: flex;
     flex-direction: column;
    }
+  .hover-crown {
+    display: none;
+  }
 }
