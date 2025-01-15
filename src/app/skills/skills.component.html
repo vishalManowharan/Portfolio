@@ -1,0 +1,11 @@
+<div class="skills-container">
+    <h1>Skills</h1>
+    <div class="skills">
+    @for(skill of skills; track skill.id) {
+        <div class="skill">
+            <img src={{skill.src}} alt={{skill.name}}/><br>
+            <span><b>{{skill.name}}</b></span>
+        </div>
+        }
+    </div>
+</div>
