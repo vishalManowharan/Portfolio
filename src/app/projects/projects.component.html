@@ -3,25 +3,27 @@
   <p>Browse My Recent</p>
   <h1>Projects</h1>
   <div class="projects-container">
+    @for (project of projects; track project.id) {
     <div class="project">
-      <img src="assets/tindog.png" alt="Project Image" />
-      <h3>Tin Dog</h3>
+      <img src="assets/{{project.imgName}}" alt="Project Image" />
+      <h3>{{project.title}}</h3>
       <div>
         <button
           class="btn btn-color-2"
-          onclick="window.open('https://github.com/vishalManowharan/Tin-dog')"
+          (click)="openGithub(project.repoName)"
         >
           Github
         </button>
         <button
           class="btn btn-color-1"
-          onclick="window.open('https://vishalmanowharan.github.io/Tin-dog/')"
+          (click)="openLiveLink(project.liveLink)"
         >
           Live Demo
         </button>
       </div>
     </div>
-    <div class="project">
+  }
+    <!-- <div class="project">
       <img src="assets/Drums.png" alt="Project Image" />
       <h3>Drum Kit</h3>
       <div class="btn-container">
@@ -56,6 +58,6 @@
           Live Demo
         </button>
       </div>
-    </div>
+    </div> -->
   </div>
 </div>
