@@ -9,6 +9,8 @@ header, main {
     width: 100vw;
 }
 
+
+
 @media (max-width: 768px) {
     .app-header {
         position: relative;

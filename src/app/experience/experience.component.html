@@ -1,7 +1,7 @@
 <div class="experience-container">
   <p>Explore My</p>
   <h1>Experience</h1>
-  <div class="techstack-container">
+  <div class="techstack-container animate">
     @for(item of techStacks; track item.id) {
           <app-tech-stack [title]="item.title" [stackList]="item.techStackList" ></app-tech-stack>
     }

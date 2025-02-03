@@ -41,6 +41,10 @@
   animation-play-state: running;
 }
 
+.stylish-font {
+  font-family: Smooch Sans;
+}
+
 .skills:hover {
   animation-play-state: paused;
 }

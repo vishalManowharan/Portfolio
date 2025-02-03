@@ -1,10 +1,10 @@
 <div class="skills-container">
     <h1>Skills</h1>
-    <div class="skills">
+    <div class="skills animate">
     @for(skill of skills; track skill.id) {
         <div class="skill">
             <img src={{skill.src}} alt={{skill.name}}/><br>
-            <span><b>{{skill.name}}</b></span>
+            <span class="stylish-font">{{skill.name}}</span>
         </div>
         }
     </div>
