@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-
+import {MatTooltipModule} from '@angular/material/tooltip';
 @Component({
   selector: 'app-skills',
   standalone: true,
-  imports: [],
+  imports: [MatTooltipModule],
   templateUrl: './skills.component.html',
   styleUrl: './skills.component.css'
 })
