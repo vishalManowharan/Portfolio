@@ -33,13 +33,13 @@
      .navigators {
         display: none;
      }
-     .hambuger {
+     /* .hambuger {
         display: block;
         width: fit-content;
      }
      .hambuger img {
         width: 60px;
-     }
+     } */
      .name {
         font-size: 20px;
      }
